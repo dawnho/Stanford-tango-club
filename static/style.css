@@ -1,0 +1,280 @@
+<style type="text/css">
+
+body {
+	background-color: black;
+}
+
+h6 {
+	margin-bottom:0px;
+	margin-top:0px;
+	
+}
+
+.subtext {
+	color: #999999
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.wholepage{
+	margin: 2em auto 0 auto;
+	position:relative;
+	width:930px;
+	margin-bottom:50px;
+}
+
+.container{
+	margin: 2em auto 0 auto;
+	position:relative;
+	width:95%;
+}
+
+.banner{
+	display: block;   margin-left: auto;   margin-right: auto;
+	height:235px;
+	margin-bottom:0px;
+	margin-top:0px;
+	border:none;
+}
+
+.bannerlk{
+	text-decoration: none;
+}
+
+.webbanner{
+	width:100%;
+}
+
+.navigation{
+	margin: 2em auto 0 auto;
+	width:100%;
+	text-align:center;
+	padding-bottom:50px;
+	text-transform:uppercase;
+	font-family:Futura, Helvetica, Geneva, "Arial Narrow", Verdana, sans-serif;
+	font-size:20px;
+}
+
+a.navitab, a.navitab:visited{
+	color:crimson;
+	text-decoration:none;
+	border-bottom:1px;
+	margin-left: 4px;
+	margin-right: 4px;
+	font-size:20px;
+}
+
+a.activenavitab{
+	color:crimson;
+	text-decoration: none;
+	border-bottom:1px solid crimson;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.headtext{
+	margin-left: 0px;
+	text-transform: uppercase;
+	font-family: Helvetica, Geneva, Verdana, sans-serif;
+	font-size: 10px;
+	color: grey;
+	text-decoration: none;
+}
+
+.subscribebanner p{
+	padding-top:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+
+.addlink{
+	margin-top: 25px;
+	text-align: right;
+}
+
+.addlink img{
+	height: 11px;
+}
+
+.more{
+	font-family: Helvetica, Geneva, Verdana, sans-serif;
+	font-size: 11px;
+	color: #F0F0F0;
+	text-transform: uppercase;
+}
+
+.more a{
+	text-decoration:none;
+	color: #F0F0F0;
+}
+
+.linkadd{
+	text-decoration: none;
+	color: #9A3859;
+	text-transform: uppercase;
+	font-family: "Arial Narrow", Helvetica, Geneva, Verdana, sans-serif;
+	font-size: 12px;
+	color:crimson;
+	text-decoration:none;
+}
+
+.foottext{
+	margin-left:10px;
+	text-transform:uppercase;
+	font-family:Helvetica, Geneva, Verdana, sans-serif;
+	font-size:10px;
+	color:grey;
+	text-decoration:none;
+}
+
+h1{
+	text-transform:uppercase;
+	font-family:Futura, Helvetica, Geneva, Verdana, sans-serif;
+	margin-top:9px;
+	font-size:21px;
+}
+
+h2{
+	text-transform:uppercase;
+	font-family:Futura, Helvetica, Geneva, Verdana, sans-serif;
+	margin-top:9px;
+	margin-bottom:50px;
+	font-size:21px;
+}
+
+h3{
+	font-family:Futura, Helvetica, Geneva, Verdana, sans-serif;
+	color:#9A3859;
+	font-size:17px;
+}
+
+h4{
+	text-transform:uppercase;
+	font-family:Futura, Helvetica, Geneva, Verdana, sans-serif;
+	margin-top:9px;
+	font-size:16px;
+}
+
+.tab{
+	border:none;
+	height:19px;
+}
+
+.content{
+	font-family: Futura, Helvetica, Geneva, Verdana, sans-serif;
+	border-top: 2px solid crimson;
+	color:#F0F0F0;
+	font-size: 15px;
+	width: 100%;
+	padding-bottom:30px;
+	text-align:left;
+}
+
+.contentbox{
+	float:left; width: 63%; 
+	text-align:right;
+	padding-bottom: 50px;
+}
+
+.link{
+	font-family:Futura, Helvetica, Geneva, Verdana, sans-serif;
+	color:#999999;
+}
+
+.bold{
+	font-weight:bold;
+}
+
+.sidebox{
+	float: right; width: 29%; 
+	margin-bottom:50px;
+}
+
+.sidetabs{
+	margin-bottom:8px;
+	padding-left: 8px;
+	border:none;
+	border-left: 1px solid crimson;
+	color:#F0F0F0;
+	text-decoration:none;
+	height: 40px;
+
+}
+
+.newsblock{
+	border-bottom: 1px solid #3A1421;
+	padding-bottom: 20px;
+}
+
+.sidebox p{
+	padding-top:0px;
+	margin-top:0px;
+}
+
+.sidebox{
+	padding-bottom:20px;
+}
+
+view-container-border{
+	background-color: grey;
+}
+
+label{
+	float: left;
+	width: 120px;
+	margin-left:40px;
+	font-family: Futura, Arial, Helvetica, Geneva, Verdana, sans-serif;
+	font-size:15px;
+	text-align:right;
+	padding-right:10px;
+}
+
+input, textarea{
+	width: 360px;
+	height: 15px;
+	margin-bottom: 13px;
+}
+
+textarea{
+	height: 220px;
+	width:360px;
+	background-color: #484848;
+	font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+	border: 0px;
+	color:#F0F0F0;
+	font-size:15px;
+}
+
+#submitbutton{
+	margin-top:5px;
+	height:20px;
+	width:60px;
+}
+
+#resetbutton{
+	margin-top:5px;
+	height:20px;
+	width:52px;
+}
+
+input:not([type="submit"]):not([type="reset"]){
+	background-color: #484848;
+	border: 0px;
+	font-size:15px;
+	color:#F0F0F0;
+}
+
+.red{
+	color:red;
+}
+
+div{
+	border-color:white;
+	border-width:1px;
+	border-style:none;
+}
+
+</style>
